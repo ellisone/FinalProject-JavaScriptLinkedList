@@ -1,13 +1,13 @@
 
 var LSList;
 function setup(){
-  createCanvas(900,600);
+  //createCanvas(900,600);
+  createCanvas(windowWidth, windowHeight);
   LSList=new LinkedScriptList(0);
   for(let i=1;i<10;i++){
     LSList.addVal(i);
   }
   LSList.resetNew();
-  console.log(""+LSList.toString());
 }
 
 var timer = 0;
